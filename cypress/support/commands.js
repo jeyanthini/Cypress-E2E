@@ -25,3 +25,12 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 ///<reference types="cypress-xpath"/>
 ///<reference types="Cypress"/>
+Cypress.Commands.add('login',(username, password) =>
+    {
+
+       
+        cy.get('#input-email').type(username)
+        cy.get ('#input-password').type(password)
+        cy.get('input[type="submit"]').click()
+
+    })

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:addtocart": "npx cypress run --spec cypress/e2e/Test_NaveenEcom/AddtocartTest.cy.js"
   },
   "author": "Jey",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "cypress": "^13.8.1"
   },
   "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2",
     "cypress-xpath": "^2.0.1"
   }
 }
