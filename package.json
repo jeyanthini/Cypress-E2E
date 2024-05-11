@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test:addtocart": "npx cypress run --spec cypress/e2e/Test_NaveenEcom/AddtocartTest.cy.js"
+    "test:addtocart": "npx cypress run --spec cypress/e2e/Test_NaveenEcom/AddtocartTest.cy.js",
+    "test:register": "npx cypress run cypress/e2e/Test_NaveenEcom/Registertest.cy.js"
+
   },
   "author": "Jey",
   "license": "ISC",
